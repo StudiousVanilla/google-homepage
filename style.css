@@ -1,0 +1,148 @@
+body{
+    min-width: 980px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+li{
+    display: inline;
+}
+
+li a{
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    padding-left: 10px;
+    font-family: arial,sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+
+li a img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.gmail{
+    text-decoration: underline;
+}
+
+.apps{
+    width: 25px;
+    height: 25px
+}
+
+.logo{
+    margin-top: 150px;
+    display: block;
+    text-align: center; 
+}
+
+.search-bar{
+    margin-top: 30px;
+    display: block;
+    text-align: center;
+}
+
+input{
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    width: 40%;
+    height: 34px;
+}
+
+.buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+button{
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.languages{
+    text-align: center;
+    font-family: arial,sans-serif;
+    font-size: small;
+}
+
+.settings-left{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    width: 49%;
+    margin: 20px 0px 20px 0px;
+}
+
+.settings-left li{
+    padding: 0px 0px 0px 27px;
+}
+
+.settings-right{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    width: 49%;
+    margin: 20px 22px 20px 0px;
+}
+
+.settings-right li{
+    padding: 0px 0px 0px 27px;
+}
+
+.geo-nav-bar{
+    padding:  0px 0px 0px 27px;
+    background-color: #f2f2f2;
+    line-height: 5px;
+    flex-direction: row;
+    width: 100%;
+    border-top: 1px solid #e4e4e4; 
+    border-bottom: 1px solid #e4e4e4;
+    border: 10px 0px 10px 0px;
+    line-height: 10px;
+    font-size: 15px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-end;
+    background-color: #f2f2f2;
+    line-height: 5px;
+    font-family: arial,sans-serif;
+    color: #5f6368;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+    line-height: 1px;
+    min-width: 1099px;
+}
